@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <!--
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+  -->
+  <ion-toolbar id="top">
+    <ion-title>{{ page }}</ion-title>
+  </ion-toolbar>
+
+  <ion-list>
+
+    <ion-item *ngFor="let comand of comandos">
+
+      <ion-label>{{comand.name}}</ion-label>
+
+      <IonButton>[ {{ comionic and.id }} ]</IonButton>
+    </ion-item>
+
+  </ion-list>
+
+  <div>
+    <div id="container">
+      <strong>Making in proces...</strong>
+      <p>by: <strong>「パシフィック」</strong></p>
+    </div>
+  </div>
+
+</ion-content>

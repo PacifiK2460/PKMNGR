@@ -1,0 +1,7 @@
+{
+  "name": "PKMNGR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
